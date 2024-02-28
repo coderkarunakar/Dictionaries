@@ -42,6 +42,7 @@ class Map:
                 return
                 #this is to move to next step
             head = head.next
+        head = self.bukets[index]
 #creates a new map node with the given key value pair.inserts the new node at the begining of the linked list at the calculated index increments the count of the elements in the map
         newNode = MapNode(key,value)
         #at that particular index creating a head

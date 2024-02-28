@@ -52,6 +52,7 @@ class Map:
                 head.value = value
                 return
             head = head.next
+        head = self.buckets[index]
         newNode = MapNode(key, value)
         newNode.next = self.buckets[index]
         self.buckets[index] = newNode
