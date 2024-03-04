@@ -98,3 +98,8 @@ for i in range(10):
 #if there are b boxes then n/b each entrie takes place,and this n/b should remain less thatn 0.7 (this factor is called as load factor) n->no of entries ,b->bucket size
 
 #Rehashing: it initializes a new array of double size and what ever the previous element was,will try to store it in the new array whose size is the double of the previous size,increase the bucket size maintain n/b < 0.7
+
+
+#Time complexity :
+#Time Complexity for retrieving all keys from hashmap
+#O(n)
