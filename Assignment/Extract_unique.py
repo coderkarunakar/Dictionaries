@@ -28,7 +28,7 @@ def remove_duplicates(S):
             result.append(char)
 
             unique_chars.add(char)
-  # here .join method used to join all elements from the iterable and create a string and it return it as an output to the user.python join returns a new string which is the concatination of the other strings in the iterable specified  
+  # here .join method used to join all elements from the iterable and create a string and it return it as an output to the user.python join returns a new string which is the concatination of the other strings in the iterable specified               
     return ''.join(result)
 
 # Reading input
