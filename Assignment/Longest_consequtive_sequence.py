@@ -43,3 +43,9 @@ def longest_consecutive_sequence(nums):
 nums = [9,1,8,6,3,4,2]
 print("Longest consecutive sequence length:", longest_consecutive_sequence(nums))
  
+
+
+
+#Dry run
+
+
