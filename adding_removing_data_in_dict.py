@@ -18,21 +18,22 @@ print(a.get("li"))
 print(a.get('li',0))
 a = {1: 2, 3: 4, 'list': [1, 23], 'dict': {1: 2}}
 
-# to get all the keys
+# to get all the keys(it gves you no of keys)
 print(a.keys())
 
-# to get all the values
+# to get all the values(it gives you no of  values)
 print(a.values())
 
-# to get key-value pairs
+# to get key-value pairs(it gives you the list )
 print(a.items())
 
-# iterating through keys
+# iterating through keys(it gives you the dict)
 for i in a:
     print(i,a[i])
    
 #incase i dont want to get through all the values and i just want to pass through all the values
 for i in a.values():
+#it  is just printing the no of values
     print(i)
 
 #check if a key exist in dict or not
@@ -77,5 +78,5 @@ print(a)
 
 #incase if you want to delete the dictionary it self then simply use ,now
 del a
-#now if you try to search a then you will be getting the error since there is no element with name a 
+#now if you try to search a then you will be getting the error since there is no element with name a since the data a is not there here you will be getting the error
 print(a)
