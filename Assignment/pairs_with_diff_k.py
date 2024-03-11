@@ -2,14 +2,14 @@
 def count_pairs_with_difference_k(arr, n, k):
     frequency = {}
     count = 0
-    
+    #this loop is to create a dictionary about its number and its frequency
     # Count the frequency of each element in the array
     for num in arr:
         if num in frequency:
             frequency[num] += 1
         else:
             frequency[num] = 1
-    
+    #this loop is  to find the difference with k
     # Traverse through the array to find pairs with difference k
     for num in arr:
         # Check if (num - k) or (num + k) exists in the dictionary

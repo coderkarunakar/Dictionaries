@@ -28,10 +28,13 @@ print(a.items())
 
 # iterating through keys
 for i in a:
+
+    #(printed only list)
     print(i,a[i])
    
 #incase i dont want to get through all the values and i just want to pass through all the values
 for i in a.values():
+    #here printing only the dictionary 
     print(i)
 
 #check if a key exist in dict or not
