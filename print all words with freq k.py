@@ -25,30 +25,36 @@ print(words)
 
 
 #more consice method
+#created an empty dictionary
 d = {}
+#loop through the all words
 for w in words:
     #if the word is there then give me the value stored corresponding to it,if the word is not there then give me the 2nd argument i.e 0 in this case
+    #if the value is not there in the dictionary d then it returns 0  and +1 to it
     d[w] = d.get(w,0) + 1
 print(d)
 
-
+#Now dictionary contains all words  and its frequency
 #Actual logic print according to the frequency i.e k
+#loop through each word in the dictionary
 for w in d:
     #here words in dictionary is equal to k then print that particular word
+    #if the index words value is  equal to the freq of k then it get printed else no ,here the k
+    # s frequency is equal to 2
     if d[w] == k:
         print(w)
 
 
 
-#Another Approach
-    #printing using a function another approach
-def printkfreqwords(s,k):
-    words = s.split()
-    d = {} 
-    for w in words:
-        d[w] = d.get(w,0) + 1
-    for w in d:
-    #here words in dictionary is equal to k then print that particular word
-        if d[w] == k:
-                print(w)
-printkfreqwords(s,1)
+# #Another Approach
+#     #printing using a function another approach
+# def printkfreqwords(s,k):
+#     words = s.split()
+#     d = {} 
+#     for w in words:
+#         d[w] = d.get(w,0) + 1
+#     for w in d:
+#     #here words in dictionary is equal to k then print that particular word
+#         if d[w] == k:
+#                 print(w)
+# printkfreqwords(s,1)

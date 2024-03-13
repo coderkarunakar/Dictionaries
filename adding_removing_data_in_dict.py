@@ -27,11 +27,11 @@ print(a.values())
 # to get key-value pairs(it gives you the list )
 print(a.items())
 
-# iterating through keys(it gives you the dict)
+# iterating through keys(list)
 for i in a:
     print(i,a[i])
    
-#incase i dont want to get through all the values and i just want to pass through all the values
+#incase i dont want to get through all the values and i just want to pass through all the values(dict)
 for i in a.values():
 #it  is just printing the no of values
     print(i)

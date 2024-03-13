@@ -19,9 +19,8 @@ def max_frequency(arr):
     return max_freq_element
 
 # Input
-n = int(input("Enter the number of elements: "))
-arr = list(map(int, input("Enter the elements separated by space: ").split()))
+n = int(input("enter the no of elements you want to enter"))
+arr = list(map(int, input().split("enter the elements")))
 
 # Output
 print(max_frequency(arr))
- 
