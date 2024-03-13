@@ -1,4 +1,4 @@
-#question:pair sum to zero :we need to pair two digits such that its sum = 0 and we can use the already no to pair with other number
+ #question:pair sum to zero :we need to pair two digits such that its sum = 0 and we can use the already no to pair with other number
 
 def find_pairs_with_sum_zero(arr):
     #this line initializes an empty list ,we will store pairs of numbers that sum upto zero
