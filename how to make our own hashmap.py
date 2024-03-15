@@ -8,3 +8,9 @@
 #hashfunction:when we give an string it converts to  a byte code this compression fucntion is used to make the array into that particular size this is the use of the compression fucntion
 #hash code:when you pass a key through a hash function it will give you a hash code ,the hash code can be a any integer,but to make sure that comes with in the limits i will pass through the hash compression function
 #the perfect compression function size is modulo bucket size
+
+
+
+
+
+#Note:last 2-3 problems of dry run left please dont forget in this topic
